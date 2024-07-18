@@ -4,4 +4,3 @@
 
 Use Kor and free LLM API to generate structred data.
 
-中文读者可以参看这篇博文：
