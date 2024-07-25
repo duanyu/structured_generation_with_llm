@@ -12,4 +12,8 @@ Kor本质上是对LLM的一层“封装”，只做了 组装prompt 和 解析ou
 
 介绍如何将Function/Tool Calling功能用于structured generation。
 
-FC经过了LLM厂商的fine-tuning，稳定性可能比Kor更有保障。但是，FC仍然不能够“保证”输出结构的稳定性。
+FC经过了LLM厂商的fine-tuning，稳定性“可能”比Kor更有保障；但是，FC仍然不能保证输出结构的稳定性。
+
+还有一个问题：FC在使用few-shot examples上没有Kor方便。
+
+至少在我的实验中，我发现很难给glm-4-flash/air/airx有效加上examples。
